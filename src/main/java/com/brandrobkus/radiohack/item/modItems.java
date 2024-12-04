@@ -12,8 +12,12 @@ import net.minecraft.util.Identifier;
 
 public class modItems{
     public static final Item SCULK_MEMBRANE = registerItem("sculk_membrane", new Item(new FabricItemSettings()));
+    public static final Item YELLOW_WIRE = registerItem("yellow_wire", new Item(new FabricItemSettings()));
+    public static final Item WHITE_WIRE = registerItem("white_wire", new Item(new FabricItemSettings()));
     private static void addItemstoIngredientTabItemGroup(FabricItemGroupEntries entries) {
         entries.add(SCULK_MEMBRANE);
+        entries.add(YELLOW_WIRE);
+        entries.add(WHITE_WIRE);
     }
 
     private static Item registerItem(String name, Item item){

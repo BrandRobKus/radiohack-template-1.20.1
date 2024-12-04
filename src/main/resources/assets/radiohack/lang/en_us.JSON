@@ -1,3 +1,7 @@
 {
-  "item.radiohack.sculk_membrane": "Sculk Membrane"
+  "item.radiohack.sculk_membrane": "Sculk Membrane",
+  "item.radiohack.yellow_wire": "Yellow Wire",
+  "item.radiohack.white_wire": "White Wire",
+
+  "itemgroup.radiohack": "RadioHack"
 }

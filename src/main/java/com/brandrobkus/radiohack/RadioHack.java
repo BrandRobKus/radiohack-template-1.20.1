@@ -1,5 +1,6 @@
 package com.brandrobkus.radiohack;
 
+import com.brandrobkus.radiohack.item.modItemGroups;
 import com.brandrobkus.radiohack.item.modItems;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
@@ -11,7 +12,7 @@ public class RadioHack implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		modItemGroups.registerItemGroups();
 		modItems.registerModItems();
 	}
 }
