@@ -2,6 +2,21 @@
   "item.radiohack.sculk_membrane": "Sculk Membrane",
   "item.radiohack.yellow_wire": "Yellow Wire",
   "item.radiohack.white_wire": "White Wire",
+  "item.radiohack.red_wire": "Red Wire",
+  "item.radiohack.orange_wire": "Orange Wire",
+  "item.radiohack.lime_wire": "Lime Green Wire",
+  "item.radiohack.green_wire": "Green Wire",
+  "item.radiohack.cyan_wire": "Cyan Wire",
+  "item.radiohack.sky_wire": "Light Blue Wire",
+  "item.radiohack.blue_wire": "Blue Wire",
+  "item.radiohack.purple_wire": "Purple Wire",
+  "item.radiohack.magenta_wire": "Magenta Wire",
+  "item.radiohack.pink_wire": "Pink Wire",
+  "item.radiohack.light_gray_wire": "Light Gray Wire",
+  "item.radiohack.gray_wire": "Gray Wire",
+  "item.radiohack.black_wire": "Black Wire",
+  "item.radiohack.brown_wire": "Brown Wire",
+
 
   "itemgroup.radiohack": "RadioHack"
 }
