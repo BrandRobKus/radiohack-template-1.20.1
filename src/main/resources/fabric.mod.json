@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "radiohack",
+	"version": "${version}",
+	"name": "RadioHack",
+	"description": "This is a mod that is used as a base test version of RadioHack",
+	"authors": [
+		"Brandrobkus"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/radiohack/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.brandrobkus.radiohack.RadioHack"
+		],
+		"client": [
+			"com.brandrobkus.radiohack.RadioHackClient"
+		],
+		"fabric-datagen": [
+			"com.brandrobkus.radiohack.RadioHackDataGenerator"
+		]
+	},
+	"mixins": [
+		"radiohack.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.5",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
