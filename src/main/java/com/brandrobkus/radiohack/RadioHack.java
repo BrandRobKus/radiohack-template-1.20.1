@@ -1,5 +1,6 @@
 package com.brandrobkus.radiohack;
 
+import com.brandrobkus.radiohack.block.modBlocks;
 import com.brandrobkus.radiohack.item.modItemGroups;
 import com.brandrobkus.radiohack.item.modItems;
 import net.fabricmc.api.ModInitializer;
@@ -14,5 +15,6 @@ public class RadioHack implements ModInitializer {
 	public void onInitialize() {
 		modItemGroups.registerItemGroups();
 		modItems.registerModItems();
+		modBlocks.registerModBlocks();
 	}
 }

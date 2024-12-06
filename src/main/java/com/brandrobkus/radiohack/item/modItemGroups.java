@@ -1,6 +1,7 @@
 package com.brandrobkus.radiohack.item;
 
 import com.brandrobkus.radiohack.RadioHack;
+import com.brandrobkus.radiohack.block.modBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 
@@ -15,6 +16,10 @@ public class modItemGroups {
             new Identifier(RadioHack.MOD_ID, "radiohack"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.radiohack"))
                     .icon(() -> new ItemStack(modItems.WHITE_WIRE)).entries((displayContext, entries) -> {
+                        //sound equipment
+                        entries.add(modBlocks.SPEAKER);
+                        entries.add(modBlocks.RECEIVER);
+
                         //wires
                         entries.add(modItems.WHITE_WIRE);
                         entries.add(modItems.RED_WIRE);

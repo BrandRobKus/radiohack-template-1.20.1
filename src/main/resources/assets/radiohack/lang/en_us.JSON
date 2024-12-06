@@ -17,6 +17,9 @@
   "item.radiohack.black_wire": "Black Wire",
   "item.radiohack.brown_wire": "Brown Wire",
 
+  "block.radiohack.speaker": "Speaker",
+  "block.radiohack.receiver": "Receiver",
+
 
   "itemgroup.radiohack": "RadioHack"
 }
