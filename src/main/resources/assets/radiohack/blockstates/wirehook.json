@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "radiohack:block/wirehook",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "radiohack:block/wirehook",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "radiohack:block/wirehook",
+      "x": 90,
+      "y": 180
+    },
+    "facing=west": {
+      "model": "radiohack:block/wirehook",
+      "x": 90,
+      "y": 270
+    },
+    "facing=up": {
+      "model": "radiohack:block/wirehook"
+    },
+    "facing=down": {
+      "model": "radiohack:block/wirehook",
+      "x": 180
+    }
+  }
+}

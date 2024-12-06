@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "radiohack:block/condenser",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "radiohack:block/condenser"
+    },
+    "facing=south": {
+      "model": "radiohack:block/condenser",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "radiohack:block/condenser",
+      "y": 270
+    }
+  }
+}

@@ -19,6 +19,12 @@
 
   "block.radiohack.speaker": "Speaker",
   "block.radiohack.receiver": "Receiver",
+  "block.radiohack.radio": "Portable Radio",
+  "block.radiohack.antenna": "Radio Antenna",
+  "block.radiohack.wirehook": "Wire Hook",
+  "block.radiohack.microphone": "Microphone",
+  "block.radiohack.condenser": "Condenser",
+  "block.radiohack.media_block": "Media Player",
 
 
   "itemgroup.radiohack": "RadioHack"

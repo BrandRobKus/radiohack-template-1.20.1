@@ -17,8 +17,13 @@ public class modItemGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.radiohack"))
                     .icon(() -> new ItemStack(modItems.WHITE_WIRE)).entries((displayContext, entries) -> {
                         //sound equipment
+                        entries.add(modBlocks.RADIO);
                         entries.add(modBlocks.SPEAKER);
+                        entries.add(modBlocks.MEDIA_BLOCK);
                         entries.add(modBlocks.RECEIVER);
+                        entries.add(modBlocks.CONDENSER);
+                        entries.add(modBlocks.ANTENNA);
+                        entries.add(modBlocks.MICROPHONE);
 
                         //wires
                         entries.add(modItems.WHITE_WIRE);
@@ -37,6 +42,7 @@ public class modItemGroups {
                         entries.add(modItems.GRAY_WIRE);
                         entries.add(modItems.BLACK_WIRE);
                         entries.add(modItems.BROWN_WIRE);
+                        entries.add(modBlocks.WIREHOOK);
 
                         //crafting materials
                         entries.add(modItems.SCULK_MEMBRANE);
