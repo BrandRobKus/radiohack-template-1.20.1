@@ -24,6 +24,7 @@ public class modItemGroups {
                         entries.add(modBlocks.CONDENSER);
                         entries.add(modBlocks.ANTENNA);
                         entries.add(modBlocks.MICROPHONE);
+                        entries.add(modItems.WIRELESS_MICROPHONE);
 
                         //wires
                         entries.add(modItems.WHITE_WIRE);

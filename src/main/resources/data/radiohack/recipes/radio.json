@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "iKi",
+    "iii"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:lightning_rod"
+    },
+    "i": {
+      "item": "minecraft:iron_ingot"
+    },
+    "K": {
+      "item": "radiohack:sculk_membrane"
+    }
+  },
+  "result": {
+    "item": "radiohack:radio",
+    "count": 1
+  }
+}

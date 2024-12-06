@@ -31,6 +31,7 @@ public class modItems{
     public static final Item GRAY_WIRE = registerItem("gray_wire", new Item(new FabricItemSettings()));
     public static final Item BLACK_WIRE = registerItem("black_wire", new Item(new FabricItemSettings()));
     public static final Item BROWN_WIRE = registerItem("brown_wire", new Item(new FabricItemSettings()));
+    public static final Item WIRELESS_MICROPHONE = registerItem("wireless_microphone", new Item(new FabricItemSettings()));
 
 
     private static void addItemstoIngredientTabItemGroup(FabricItemGroupEntries entries) {
@@ -51,6 +52,7 @@ public class modItems{
         entries.add(GRAY_WIRE);
         entries.add(BLACK_WIRE);
         entries.add(BROWN_WIRE);
+        entries.add(WIRELESS_MICROPHONE);
     }
 
     private static Item registerItem(String name, Item item){

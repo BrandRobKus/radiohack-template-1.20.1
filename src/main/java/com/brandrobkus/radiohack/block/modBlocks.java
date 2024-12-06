@@ -13,21 +13,21 @@ import net.minecraft.util.Identifier;
 public class modBlocks {
 
     public static final Block SPEAKER = registerBlock("speaker",
-            new SpeakerBlock(AbstractBlock.Settings.create().nonOpaque()));
+            new SpeakerBlock(AbstractBlock.Settings.create().nonOpaque().hardness(3)));
     public static final Block RECEIVER = registerBlock("receiver",
-            new ReceiverBlock(AbstractBlock.Settings.create().nonOpaque()));
+            new ReceiverBlock(AbstractBlock.Settings.create().nonOpaque().hardness(4)));
     public static final Block RADIO = registerBlock("radio",
-            new RadioBlock(AbstractBlock.Settings.create().nonOpaque()));
+            new RadioBlock(AbstractBlock.Settings.create().nonOpaque().hardness(1)));
     public static final Block ANTENNA = registerBlock("antenna",
-            new AntennaBlock(AbstractBlock.Settings.create().nonOpaque()));
+            new AntennaBlock(AbstractBlock.Settings.create().nonOpaque().hardness(3)));
     public static final Block WIREHOOK = registerBlock("wirehook",
-            new WireHookBlock(AbstractBlock.Settings.create().nonOpaque()));
+            new WireHookBlock(AbstractBlock.Settings.create().nonOpaque().hardness(2)));
     public static final Block MICROPHONE = registerBlock("microphone",
-            new MicrophoneBlock(AbstractBlock.Settings.create().nonOpaque()));
+            new MicrophoneBlock(AbstractBlock.Settings.create().nonOpaque().hardness(3)));
     public static final Block CONDENSER = registerBlock("condenser",
-            new CondenserBlock(AbstractBlock.Settings.create().nonOpaque()));
+            new CondenserBlock(AbstractBlock.Settings.create().nonOpaque().hardness(4)));
     public static final Block MEDIA_BLOCK = registerBlock("media_block",
-            new MediaBlock(AbstractBlock.Settings.create().nonOpaque()));
+            new MediaBlock(AbstractBlock.Settings.create().nonOpaque().hardness(2)));
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);

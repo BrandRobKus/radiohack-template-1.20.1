@@ -1,0 +1,20 @@
+{
+  "values": [
+    "radiohack:red_wire",
+    "radiohack:orange_wire",
+    "radiohack:yellow_wire",
+    "radiohack:lime_wire",
+    "radiohack:green_wire",
+    "radiohack:cyan_wire",
+    "radiohack:blue_wire",
+    "radiohack:sky_wire",
+    "radiohack:purple_wire",
+    "radiohack:magenta_wire",
+    "radiohack:pink_wire",
+    "radiohack:light_gray_wire",
+    "radiohack:gray_wire",
+    "radiohack:black_wire",
+    "radiohack:brown_wire",
+    "radiohack:white_wire"
+  ]
+}

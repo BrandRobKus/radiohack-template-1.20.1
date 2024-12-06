@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  #",
+    " i ",
+    "L  "
+  ],
+  "key": {
+    "#": {
+      "item": "radiohack:sculk_membrane"
+    },
+    "i": {
+      "item": "minecraft:iron_ingot"
+    },
+    "L": {
+      "item": "minecraft:lightning_rod"
+    }
+  },
+  "result": {
+    "item": "radiohack:wireless_microphone",
+    "count": 1
+  }
+}

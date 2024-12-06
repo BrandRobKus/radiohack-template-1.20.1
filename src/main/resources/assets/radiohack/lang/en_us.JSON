@@ -16,13 +16,14 @@
   "item.radiohack.gray_wire": "Gray Wire",
   "item.radiohack.black_wire": "Black Wire",
   "item.radiohack.brown_wire": "Brown Wire",
+  "item.radiohack.wireless_microphone": "Wireless Microphone",
 
   "block.radiohack.speaker": "Speaker",
   "block.radiohack.receiver": "Receiver",
   "block.radiohack.radio": "Portable Radio",
   "block.radiohack.antenna": "Radio Antenna",
   "block.radiohack.wirehook": "Wire Hook",
-  "block.radiohack.microphone": "Microphone",
+  "block.radiohack.microphone": "Microphone Stand",
   "block.radiohack.condenser": "Condenser",
   "block.radiohack.media_block": "Media Player",
 

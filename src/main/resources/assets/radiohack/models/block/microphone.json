@@ -2,7 +2,8 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"2": "radiohack:block/microphone_stand",
-		"4": "radiohack:block/microphone_button"
+		"4": "radiohack:block/microphone_button",
+		"particle": "radiohack:block/microphone_stand"
 	},
 	"elements": [
 		{

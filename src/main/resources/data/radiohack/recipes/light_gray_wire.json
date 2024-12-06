@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#r#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "radiohack:wire"
+    },
+    "r": {
+      "item": "minecraft:light_gray_dye"
+    }
+  },
+  "result": {
+    "item": "radiohack:light_gray_wire",
+    "count": 8
+  }
+}
