@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "P": {
+      "tag": "minecraft:planks"
+    },
+    "i": {
+      "item": "minecraft:iron_ingot"
+    },
+    "s": {
+      "item": "radiohack:sculk_membrane"
+    }
+  },
+  "pattern": [
+    "iiP",
+    "iss",
+    "iiP"
+  ],
+  "result": {
+    "item": "radiohack:speaker"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/template_two_candles",
+  "textures": {
+    "all": "radiohack:block/sculk_blue_candle_lit",
+    "particle": "radiohack:block/sculk_blue_candle_lit"
+  }
+}

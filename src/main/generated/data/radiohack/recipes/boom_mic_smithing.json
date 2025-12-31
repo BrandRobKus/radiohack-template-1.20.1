@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:netherite_ingot"
+  },
+  "base": {
+    "item": "radiohack:microphone_arm"
+  },
+  "result": {
+    "item": "radiohack:boom_mic"
+  },
+  "template": {
+    "item": "minecraft:netherite_upgrade_smithing_template"
+  }
+}

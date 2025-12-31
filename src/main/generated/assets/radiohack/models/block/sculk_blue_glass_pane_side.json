@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/template_glass_pane_side",
+  "textures": {
+    "edge": "radiohack:block/sculk_blue_glass_pane_top",
+    "pane": "radiohack:block/sculk_blue_glass"
+  }
+}

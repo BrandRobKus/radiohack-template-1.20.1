@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "radiohack:block/black_acoustic_panel",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "radiohack:block/black_acoustic_panel",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "radiohack:block/black_acoustic_panel",
+      "x": 90,
+      "y": 180
+    },
+    "facing=west": {
+      "model": "radiohack:block/black_acoustic_panel",
+      "x": 90,
+      "y": 270
+    },
+    "facing=down":{
+      "model": "radiohack:block/black_acoustic_panel",
+      "x": 180
+    },
+    "facing=up": {
+      "model": "radiohack:block/black_acoustic_panel"
+    }
+  }
+}

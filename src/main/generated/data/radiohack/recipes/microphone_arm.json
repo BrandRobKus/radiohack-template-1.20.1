@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "radiohack:wireless_microphone"
+    },
+    "i": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    " # ",
+    " i ",
+    "iii"
+  ],
+  "result": {
+    "item": "radiohack:microphone_arm"
+  },
+  "show_notification": true
+}

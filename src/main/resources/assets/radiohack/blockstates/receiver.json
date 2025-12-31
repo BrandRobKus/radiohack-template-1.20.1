@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "radiohack:block/receiver",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "radiohack:block/receiver"
+    },
+    "facing=south": {
+      "model": "radiohack:block/receiver",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "radiohack:block/receiver",
+      "y": 270
+    }
+  }
+}

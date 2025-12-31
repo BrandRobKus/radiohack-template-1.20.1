@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "sculk",
+  "ingredients": [
+    {
+      "tag": "minecraft:wool_carpets"
+    },
+    {
+      "item": "radiohack:sculk_blue_dye"
+    }
+  ],
+  "result": {
+    "item": "radiohack:sculk_blue_carpet"
+  }
+}

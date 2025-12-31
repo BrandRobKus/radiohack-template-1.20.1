@@ -1,0 +1,16 @@
+// 1.20.1	2025-01-03T02:07:15.6005976	RadioHack/Tags for minecraft:block
+0498faaf8d4b8a0062e3dff10ef0a815c191fb87 data\radiohack\tags\blocks\acoustic_panel.json
+9c0d12423a1dcad5b747384d5ceedfad967f011c data\minecraft\tags\blocks\needs_stone_tool.json
+eacf7f0cd23c9279eac96337be46513feec0cb96 data\minecraft\tags\blocks\dampens_vibrations.json
+100a420f021876f8b29ec86b17104a999934b36c data\minecraft\tags\blocks\terracotta.json
+7866f6f7063a41f7800d9a7353b85287a09db95b data\minecraft\tags\blocks\candle_cakes.json
+d4559b4ac79fab5c2c2c765d2edde12548bf6b8d data\minecraft\tags\blocks\mineable\pickaxe.json
+eacf7f0cd23c9279eac96337be46513feec0cb96 data\minecraft\tags\blocks\occludes_vibration_signals.json
+25b5b260ac24346fddaa0b51749e053fdc015f6f data\minecraft\tags\blocks\wool_carpets.json
+69e66011bb52f9773e480602c5b3772940eec2a3 data\minecraft\tags\blocks\mineable\shovel.json
+f28d15cf6c67dc3e05a943cc698722e3d13538d3 data\minecraft\tags\blocks\mineable\hoe.json
+a19665a29ec7224a3a87c1c9bb76ae85a332ad30 data\minecraft\tags\blocks\wool.json
+8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\minecraft\tags\blocks\needs_iron_tool.json
+8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\minecraft\tags\blocks\needs_diamond_tool.json
+a97e67690ca1431bab7dd5faffa00ef97401106b data\minecraft\tags\blocks\mineable\axe.json
+83df3add005be9f299ab459f0302ff0194f73288 data\minecraft\tags\blocks\candles.json

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "radiohack:speaker",
+    "radiohack:microphone",
+    "radiohack:media_block",
+    "radiohack:antenna"
+  ]
+}

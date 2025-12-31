@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "/c/",
+    "ici"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:lightning_rod"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    },
+    "c": {
+      "item": "minecraft:copper_ingot"
+    },
+    "i": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "radiohack:antenna",
+    "count": 1
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "radiohack:condenser",
+    "radiohack:receiver",
+    "radiohack:wirehook",
+    "radiohack:microphone_arm"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "minecraft:copper_ingot"
+    },
+    "w": {
+      "item": "minecraft:honeycomb"
+    }
+  },
+  "pattern": [
+    "www",
+    "wDw",
+    "www"
+  ],
+  "result": {
+    "count": 8,
+    "item": "radiohack:yellow_wire"
+  },
+  "show_notification": true
+}

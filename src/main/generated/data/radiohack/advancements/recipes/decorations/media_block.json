@@ -1,0 +1,61 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_iron_nugget": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_nugget"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_jukebox": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:jukebox"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_sculk_membrane": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "radiohack:sculk_membrane"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:media_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_iron_nugget",
+      "has_sculk_membrane",
+      "has_jukebox",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:media_block"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,61 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_iron_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_lightning_rod": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:lightning_rod"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_sculk_membrane": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "radiohack:sculk_membrane"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:wireless_microphone"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_sculk_membrane",
+      "has_iron_ingot",
+      "has_lightning_rod",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:wireless_microphone"
+    ]
+  },
+  "sends_telemetry_event": false
+}

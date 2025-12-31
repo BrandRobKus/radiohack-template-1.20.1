@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "radiohack:sculk_blue_dye"
+    },
+    "w": {
+      "tag": "radiohack:wire"
+    }
+  },
+  "pattern": [
+    "www",
+    "wDw",
+    "www"
+  ],
+  "result": {
+    "count": 8,
+    "item": "radiohack:sculk_blue_wire"
+  },
+  "show_notification": true
+}

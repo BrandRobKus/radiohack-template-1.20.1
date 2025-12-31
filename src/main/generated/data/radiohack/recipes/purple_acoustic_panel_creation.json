@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "w": {
+      "item": "minecraft:purple_wool"
+    }
+  },
+  "pattern": [
+    "w  ",
+    "ww ",
+    "w  "
+  ],
+  "result": {
+    "count": 6,
+    "item": "radiohack:purple_acoustic_panel"
+  },
+  "show_notification": true
+}

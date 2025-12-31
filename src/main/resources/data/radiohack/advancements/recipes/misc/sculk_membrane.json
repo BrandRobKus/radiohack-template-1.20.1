@@ -1,0 +1,40 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_item": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "radiohack:sculk_membrane"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "radiohack:sculk_blue_dye"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_item",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "radiohack:condenser",
+      "radiohack:media_block",
+      "radiohack:radio",
+      "radiohack:receiver",
+      "radiohack:sculk_blue_dye",
+      "radiohack:speaker",
+      "radiohack:wireless_microphone"
+    ]
+  }
+}

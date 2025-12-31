@@ -1,0 +1,29 @@
+{
+  "radio_plays_music": {
+    "subtitle": "sounds.radiohack.radio_plays_music",
+    "sounds": [
+      "radiohack:still_alive"
+    ]
+  },
+  "tinnitus_effect": {
+    "subtitle": "sounds.radiohack.tinnitus_effect",
+    "sounds": [
+      "radiohack:tinnitus"
+    ]
+  },
+  "microphone_hit": {
+    "subtitle": "sounds.radiohack.microphone_hit",
+    "sounds": [
+      "radiohack:mic_hit_1",
+      "radiohack:mic_hit_2",
+      "radiohack:mic_hit_3",
+      "radiohack:mic_hit_4",
+      "radiohack:mic_hit_5",
+      "radiohack:mic_hit_6",
+      "radiohack:mic_hit_7",
+      "radiohack:mic_hit_8",
+      "radiohack:mic_hit_9",
+      "radiohack:mic_hit_10"
+    ]
+  }
+}

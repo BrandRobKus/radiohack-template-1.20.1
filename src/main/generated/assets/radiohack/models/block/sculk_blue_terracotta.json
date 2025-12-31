@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "radiohack:block/sculk_blue_terracotta"
+  }
+}

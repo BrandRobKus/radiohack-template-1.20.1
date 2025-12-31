@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "radiohack:block/microphone_arm",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "radiohack:block/microphone_arm",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "radiohack:block/microphone_arm"
+    },
+    "facing=west": {
+      "model": "radiohack:block/microphone_arm",
+      "y": 90
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "J": {
+      "item": "minecraft:jukebox"
+    },
+    "P": {
+      "tag": "minecraft:planks"
+    },
+    "n": {
+      "item": "minecraft:iron_nugget"
+    },
+    "s": {
+      "item": "radiohack:sculk_membrane"
+    }
+  },
+  "pattern": [
+    "  n",
+    "PJP",
+    "PsP"
+  ],
+  "result": {
+    "item": "radiohack:media_block"
+  },
+  "show_notification": true
+}

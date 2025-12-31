@@ -1,0 +1,74 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_copper_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:copper_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_iron_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_lightning_rod": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:lightning_rod"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_stick": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:stick"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:antenna"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_copper_ingot",
+      "has_iron_ingot",
+      "has_stick",
+      "has_lightning_rod",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:antenna"
+    ]
+  },
+  "sends_telemetry_event": false
+}

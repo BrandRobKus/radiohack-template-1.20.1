@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "#  "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:black_wool"
+    }
+  },
+  "result": {
+    "item": "radiohack:black_acoustic_panel",
+    "count": 6
+  }
+}

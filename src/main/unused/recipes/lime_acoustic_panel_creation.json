@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "#  "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:lime_wool"
+    }
+  },
+  "result": {
+    "item": "radiohack:lime_acoustic_panel",
+    "count": 6
+  }
+}

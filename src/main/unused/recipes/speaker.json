@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "iiO",
+    "iKK",
+    "iiO"
+  ],
+  "key": {
+    "i": {
+      "item": "minecraft:iron_ingot"
+    },
+    "O": {
+      "tag": "minecraft:planks"
+    },
+    "K": {
+      "item": "radiohack:sculk_membrane"
+    }
+  },
+  "result": {
+    "item": "radiohack:speaker",
+    "count": 1
+  }
+}

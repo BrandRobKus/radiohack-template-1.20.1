@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "sculk",
+  "ingredients": [
+    {
+      "item": "radiohack:sculk_membrane"
+    }
+  ],
+  "result": {
+    "item": "radiohack:sculk_blue_dye"
+  }
+}

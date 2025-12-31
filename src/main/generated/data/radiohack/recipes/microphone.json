@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "radiohack:wireless_microphone"
+    },
+    "W": {
+      "tag": "minecraft:wool"
+    },
+    "g": {
+      "item": "minecraft:gold_ingot"
+    },
+    "s": {
+      "tag": "minecraft:wooden_slabs"
+    }
+  },
+  "pattern": [
+    " # ",
+    "gWg",
+    "sss"
+  ],
+  "result": {
+    "item": "radiohack:microphone"
+  },
+  "show_notification": true
+}
