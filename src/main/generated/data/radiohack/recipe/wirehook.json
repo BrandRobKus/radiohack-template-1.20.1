@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "minecraft:chain"
+    },
+    "n": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "pattern": [
+    " c ",
+    "n n",
+    " n "
+  ],
+  "result": {
+    "count": 3,
+    "id": "radiohack:wirehook"
+  }
+}

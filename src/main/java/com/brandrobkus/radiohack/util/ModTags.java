@@ -13,7 +13,7 @@ public class ModTags {
                 createTag("acoustic_panel");
 
         private static TagKey<Block> createTag(String name){
-            return TagKey.of(RegistryKeys.BLOCK, new Identifier(RadioHack.MOD_ID, name));
+            return TagKey.of(RegistryKeys.BLOCK, Identifier.of(RadioHack.MOD_ID, name));
         }
 
     }
@@ -22,7 +22,7 @@ public class ModTags {
                 createTag("wire");
 
         private static TagKey<Item> createTag(String name){
-            return TagKey.of(RegistryKeys.ITEM, new Identifier(RadioHack.MOD_ID, name));
+            return TagKey.of(RegistryKeys.ITEM, Identifier.of(RadioHack.MOD_ID, name));
         }
 
     }

@@ -10,10 +10,10 @@ import net.minecraft.util.Identifier;
 
 public class ModPotions {
     public static final Potion TINNITUS_POTION = registerPotion("tinnitus_potion",
-            new Potion(new StatusEffectInstance(ModEffects.TINNITUS.value(), 1200, 0)));
+            new Potion(new StatusEffectInstance(ModEffects.TINNITUS, 1200, 0)));
 
     private static Potion registerPotion(String name, Potion potion) {
-        return Registry.register(Registries.POTION, new Identifier(RadioHack.MOD_ID, name), potion);
+        return Registry.register(Registries.POTION, Identifier.of(RadioHack.MOD_ID, name), potion);
     }
 
 
