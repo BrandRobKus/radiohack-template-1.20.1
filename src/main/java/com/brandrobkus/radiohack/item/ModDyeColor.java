@@ -20,7 +20,7 @@ public enum ModDyeColor implements StringIdentifiable {
     private static final Int2ObjectOpenHashMap<ModDyeColor> BY_FIREWORK_COLOR = new Int2ObjectOpenHashMap<>(
             (Map<? extends Integer, ? extends ModDyeColor>) Arrays.stream(values()).collect(Collectors.toMap(color -> color.fireworkColor, color -> color))
     );
-    public static final StringIdentifiable.Codec<ModDyeColor> CODEC = StringIdentifiable.createCodec(ModDyeColor::values);
+    public static final StringIdentifiable.BasicCodec<ModDyeColor> CODEC = StringIdentifiable.createCodec(ModDyeColor::values);
     private final int id;
     private final String name;
     private final MapColor mapColor;
@@ -98,12 +98,6 @@ public enum ModDyeColor implements StringIdentifiable {
      *
      * @apiNote This returns {@code null} only if {@code defaultColor} is {@code null}.
      */
-    @Nullable
-    @Contract("_,!null->!null;_,null->_")
-    public static ModDyeColor byName(String name, @Nullable ModDyeColor defaultColor) {
-        ModDyeColor modDyeColor = (ModDyeColor)CODEC.byId(name);
-        return modDyeColor != null ? modDyeColor : defaultColor;
-    }
 
     /**
      * {@return the dye color whose firework color is {@code color}, or {@code null}

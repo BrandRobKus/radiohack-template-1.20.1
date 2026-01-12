@@ -42,11 +42,10 @@ public class RadioBlock extends Block {
     }
 
 
-
     @Override
-    public ActionResult onUse(BlockState state, World world, BlockPos pos, PlayerEntity player, Hand hand, BlockHitResult hit) {
+    protected ActionResult onUse(BlockState state, World world, BlockPos pos, PlayerEntity player, BlockHitResult hit) {
         world.playSound(null, pos, ModSounds.RADIO_PLAYS_MUSIC, SoundCategory.BLOCKS, 1.0F, 1.0F);
-        return ActionResult.SUCCESS;
+        return super.onUse(state, world, pos, player, hit);
     }
 
     public BlockState getPlacementState(ItemPlacementContext ctx) {

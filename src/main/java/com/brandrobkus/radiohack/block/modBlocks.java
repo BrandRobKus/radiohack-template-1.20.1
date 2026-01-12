@@ -2,13 +2,13 @@ package com.brandrobkus.radiohack.block;
 
 import com.brandrobkus.radiohack.RadioHack;
 import com.brandrobkus.radiohack.item.ModDyeColor;
-import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.util.DyeColor;
 import net.minecraft.util.Identifier;
 
 public class modBlocks {
@@ -49,7 +49,7 @@ public class modBlocks {
     public static final Block SCULK_BLUE_GLAZED_TERRACOTTA = registerBlock("sculk_blue_glazed_terracotta",
             new GlazedTerracottaBlock(FabricBlockSettings.copyOf(Blocks.BLUE_GLAZED_TERRACOTTA)));
     public static final Block SCULK_BLUE_GLASS = registerBlock("sculk_blue_glass",
-            new GlassBlock(FabricBlockSettings.copyOf(Blocks.GLASS)));
+            new StainedGlassBlock(DyeColor.BLUE, FabricBlockSettings.copyOf(Blocks.GLASS)));
     public static final Block SCULK_BLUE_GLASS_PANE = registerBlock("sculk_blue_glass_pane",
             new ModStainedGlassPane(SCULK_BLUE_GLASS, FabricBlockSettings.copyOf(Blocks.GLASS_PANE)));
     public static final Block SCULK_BLUE_CANDLE = registerBlock("sculk_blue_candle",
@@ -95,12 +95,12 @@ public class modBlocks {
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
-        return Registry.register(Registries.BLOCK, new Identifier(RadioHack.MOD_ID, name), block);
+        return Registry.register(Registries.BLOCK, Identifier.of(RadioHack.MOD_ID, name), block);
     }
 
     private static Item registerBlockItem(String name, Block block){
-        return Registry.register(Registries.ITEM, new Identifier(RadioHack.MOD_ID, name),
-                new BlockItem(block, new FabricItemSettings()));
+        return Registry.register(Registries.ITEM, Identifier.of(RadioHack.MOD_ID, name),
+                new BlockItem(block, new Item.Settings()));
     }
 
     public static void registerModBlocks(){
