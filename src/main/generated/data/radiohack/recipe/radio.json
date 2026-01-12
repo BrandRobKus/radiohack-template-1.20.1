@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "L": {
+      "item": "minecraft:lightning_rod"
+    },
+    "i": {
+      "item": "minecraft:iron_ingot"
+    },
+    "s": {
+      "item": "radiohack:sculk_membrane"
+    }
+  },
+  "pattern": [
+    "L  ",
+    "isi",
+    "iii"
+  ],
+  "result": {
+    "count": 1,
+    "id": "radiohack:radio"
+  }
+}

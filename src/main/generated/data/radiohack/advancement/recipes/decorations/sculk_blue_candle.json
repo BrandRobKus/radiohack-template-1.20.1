@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_sculk_blue_dye": {
+      "conditions": {
+        "items": [
+          {
+            "items": "radiohack:sculk_blue_dye"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "radiohack:sculk_blue_candle"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_sculk_blue_dye"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "radiohack:sculk_blue_candle"
+    ]
+  }
+}
