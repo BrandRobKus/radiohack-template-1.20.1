@@ -21,12 +21,11 @@ public class TinnitusEffect extends StatusEffect {
     }
 
     @Override
-    public boolean applyUpdateEffect(LivingEntity entity, int amplifier) {
+    public void applyUpdateEffect(LivingEntity entity, int amplifier) {
         if (entity instanceof PlayerEntity player) {
             if (player.getWorld().isClient) {
                 player.playSound(ModSounds.TINNITUS, 1f, 1f);
             }
         }
-        return true;
     }
 }

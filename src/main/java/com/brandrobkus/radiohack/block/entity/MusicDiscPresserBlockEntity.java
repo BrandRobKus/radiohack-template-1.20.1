@@ -36,17 +36,17 @@ public class MusicDiscPresserBlockEntity extends BlockEntity implements Extended
     }
 
     @Override
+    public void writeScreenOpeningData(ServerPlayerEntity serverPlayerEntity, PacketByteBuf packetByteBuf) {
+
+    }
+
+    @Override
     public Text getDisplayName() {
         return null;
     }
 
     @Override
     public @Nullable ScreenHandler createMenu(int syncId, PlayerInventory playerInventory, PlayerEntity player) {
-        return null;
-    }
-
-    @Override
-    public Object getScreenOpeningData(ServerPlayerEntity serverPlayerEntity) {
         return null;
     }
 }

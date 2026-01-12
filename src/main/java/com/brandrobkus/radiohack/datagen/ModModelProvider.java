@@ -25,7 +25,7 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(modBlocks.SCULK_BLUE_TERRACOTTA);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotatable(
                 modBlocks.SCULK_BLUE_GLAZED_TERRACOTTA,
-                TextureMap.all(Identifier.of("radiohack", "block/sculk_blue_glazed_terracotta")));
+                TextureMap.all(new Identifier("radiohack", "block/sculk_blue_glazed_terracotta")));
         blockStateModelGenerator.registerGlassPane(modBlocks.SCULK_BLUE_GLASS, modBlocks.SCULK_BLUE_GLASS_PANE);
         blockStateModelGenerator.registerCandle(modBlocks.SCULK_BLUE_CANDLE, modBlocks.SCULK_BLUE_CANDLE_CAKE);
 
@@ -55,8 +55,8 @@ public class ModModelProvider extends FabricModelProvider {
 
         //crafting materials
         itemModelGenerator.register(modItems.SCULK_MEMBRANE, Models.GENERATED);
-        //itemModelGenerator.register(modItems.WIRELESS_MICROPHONE, Models.HANDHELD);
-        //itemModelGenerator.register(modItems.BOOM_MIC, Models.HANDHELD);
+        itemModelGenerator.register(modItems.WIRELESS_MICROPHONE, Models.HANDHELD);
+        itemModelGenerator.register(modItems.BOOM_MIC, Models.HANDHELD);
         itemModelGenerator.register(modItems.SCULK_BLUE_DYE, Models.GENERATED);
     }
 }
