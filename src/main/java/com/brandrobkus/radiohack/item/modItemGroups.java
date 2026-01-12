@@ -13,7 +13,7 @@ import net.minecraft.util.Identifier;
 
 public class modItemGroups {
     public static final ItemGroup RADIOHACK_GROUP = Registry.register(Registries.ITEM_GROUP,
-            Identifier.of(RadioHack.MOD_ID, "radiohack"),
+            new Identifier(RadioHack.MOD_ID, "radiohack"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.radiohack"))
                     .icon(() -> new ItemStack(modBlocks.RADIO)).entries((displayContext, entries) -> {
                         //sound equipment

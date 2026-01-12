@@ -1,5 +1,6 @@
 package com.brandrobkus.radiohack.item;
 
+import com.brandrobkus.radiohack.block.ModBlocks;
 import com.brandrobkus.radiohack.block.modBlocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.entity.player.PlayerEntity;
