@@ -1,5 +1,6 @@
 package com.brandrobkus.radiohack.block;
 
+import com.mojang.serialization.MapCodec;
 import net.minecraft.block.*;
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.util.math.BlockPos;
@@ -11,6 +12,11 @@ public class MusicDiscPresserBlock extends BlockWithEntity implements BlockEntit
     private static final VoxelShape SHAPE = Block.createCuboidShape(0,0,0,16,32,16);
     public MusicDiscPresserBlock(Settings settings) {
         super(settings);
+    }
+
+    @Override
+    protected MapCodec<? extends BlockWithEntity> getCodec() {
+        return null;
     }
 
     @Override

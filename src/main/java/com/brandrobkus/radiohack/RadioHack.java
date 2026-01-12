@@ -21,7 +21,7 @@ public class RadioHack implements ModInitializer {
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
 	// Define the sound identifier and sound event
-	public static final Identifier MICROPHONE_HIT_ID = new Identifier(MOD_ID, "microphone_hit");
+	public static final Identifier MICROPHONE_HIT_ID = Identifier.of(MOD_ID, "microphone_hit");
 	public static final SoundEvent MICROPHONE_HIT = SoundEvent.of(MICROPHONE_HIT_ID);
 
 	@Override

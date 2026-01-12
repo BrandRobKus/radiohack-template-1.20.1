@@ -1,23 +1,23 @@
 package com.brandrobkus.radiohack.item;
 
+import net.minecraft.block.Block;
 import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
+import net.minecraft.registry.tag.TagKey;
 
 import java.util.function.Supplier;
 
 public enum ModToolMaterial implements ToolMaterial{
-    MICROPHONE(0, 600, 2, 2, 20, () -> Ingredient.ofItems(Items.NETHERITE_INGOT));
+    MICROPHONE( 600, 2, 2, 20, () -> Ingredient.ofItems(Items.NETHERITE_INGOT));
 
-    private final int miningLevel;
     private final int itemDurability;
     private final float miningSpeed;
     private final float attackDamage;
     private final int enchantability;
     private final Supplier<Ingredient> repairIngredient;
 
-    ModToolMaterial(int miningLevel, int itemDurability, float miningSpeed, float attackDamage, int enchantability, Supplier<Ingredient> repairIngredient) {
-        this.miningLevel = miningLevel;
+    ModToolMaterial(int itemDurability, float miningSpeed, float attackDamage, int enchantability, Supplier<Ingredient> repairIngredient) {
         this.itemDurability = itemDurability;
         this.miningSpeed = miningSpeed;
         this.attackDamage = attackDamage;
@@ -42,8 +42,8 @@ public enum ModToolMaterial implements ToolMaterial{
     }
 
     @Override
-    public int getMiningLevel() {
-        return this.miningLevel;
+    public TagKey<Block> getInverseTag() {
+        return null;
     }
 
     @Override
